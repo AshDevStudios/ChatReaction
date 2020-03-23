@@ -1,0 +1,30 @@
+#Plugin prefix
+prefix: "&b&lReaction &r>>"
+#Broadcast Random String
+#string tooltip string2
+#If strings are null (empty) they will be skipped
+randomString:
+  string1: "react to this {tooltip}"
+  tooltip: "word"
+  string2: "to win a boat"
+  numberOfChars: 8
+  letters: true
+  numbers: false
+#Guess correct message
+# {name} = Players name
+guessedCorrectly: "&b&l{name} &rhas guessed correctly!"
+#Player title on correct guess
+title:
+  string: "&bCongratulations"
+  sub: "&bYou guessed correctly!"
+  fadeIn: 5
+  stay: 60
+  fadeOut: 5
+#No one guessed message
+noOneGuessed: "&cSadly no one guessed correctly!"
+#Time in seconds to guess word
+timeInSeconds: 30
+#Time in seconds between words
+timeBetweenWords: 60
+#Reward commands for correct guess
+reward: "give {user} minecraft:acacia_boat 1"

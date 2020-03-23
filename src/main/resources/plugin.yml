@@ -1,0 +1,7 @@
+name: Testing
+version: @version@
+main: tv.ashdev.testing.Testing
+api-version: 1.13
+authors: [AshDev]
+description: Tesating out my Java programming skills
+website: https://www.twitch.tv/AshDev
